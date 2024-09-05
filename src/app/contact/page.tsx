@@ -7,8 +7,6 @@ import Navbar from "@/components/NavBar";
 import styles from './styles.module.css';
 import pic1 from '../../../public/images/pic1.jpg';
 
-
-
 function Contact() {
 
   const [formData, setFormData] = useState({

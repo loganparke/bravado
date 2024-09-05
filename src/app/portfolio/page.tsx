@@ -2,6 +2,8 @@ import styles from './styles.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
 
+import Navbar from '@/components/NavBar';
+
 import logo from '../../../public/images/photoLogo.png';
 import pic1 from '../../../public/images/pic1.jpg';
 import pic2 from '../../../public/images/pic2.jpg';
@@ -16,16 +18,8 @@ function Portfolio() {
       top: "-20px",
     }}>
     <section className={styles.portfolioHead}>
-    <nav>
-      <Image alt='logo' src={logo} width={120}/>
-      <div>
-        <Link href="/">Home</Link>
-        <Link href="/">Services</Link>
-        <Link href="/portfolio">Photo Portfolio</Link>
-        <Link href="/">Info</Link>
-        <Link href="/contact">Contact</Link>
-      </div>
-    </nav>
+
+    <Navbar />
 
     <h1>My Portfolio</h1>
     <p>and recent work</p>

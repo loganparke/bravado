@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+.contactWrap{
+  margin-top: -170px;
+  font-family: "Tenor Sans", sans-serif!important;
+  min-height: 100vh;
+}
+.contactWrap h1{
+  font-size: 40px;
+  text-align: left;
+  font-weight: 600;
+  /* color: white; */
+}
+.contactWrap h2{
+  font-size: 20px;
+  display: flex;
+  margin: auto;
+  max-width: 800px;
+  font-weight: 600;
+  text-align: left;
+  /* color: white; */
+  margin-bottom: 20px;
+}
+
+.contactWrap section{
+  display: flex;
+  width: 85%;
+  max-width: 1000px;
+  margin: auto;
+  background: #e8e8e8;
+  border-radius:20px;
+}
+.contactWrap section form{
+  color: black!important;
+  width: 40%;
+  padding: 20px;
+}
+.contactWrap section div{
+  width: 60%;
+  padding: 20px;
+  max-height: 500px;
+}
+.contactWrap section div img{
+  object-fit: cover;
+  max-height: 100%;
+  border-radius:20px;
+}
+
+.contactWrap section form input{
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  margin-bottom: 15px;
+}
+.contactWrap section form textarea{
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  height: 135px;
+  margin-bottom: 15px;
+}
+.contactWrap section form button{
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-top: auto;
+}

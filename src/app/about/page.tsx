@@ -3,6 +3,8 @@ import pic1 from '../../../public/images/pic2.jpg'
 import Image from 'next/image';
 
 import Navbar from '@/components/NavBar';
+import PhotoCarosuel from '@/components/photoCarousel';
+import Reviews from '@/components/reviews';
 
 export default function About(){
   return (
@@ -38,6 +40,19 @@ export default function About(){
           <h6>Empathy</h6>
           <p>the ability to understand and share the feelings of others.</p>
         </article>
+      </section>
+
+      <PhotoCarosuel />
+      <Reviews />
+
+      <section>
+        <div>
+          <h6>The moment is now</h6>
+        </div>
+        <div>
+          <p>Let's explore one day of your life and turn it into timeless mementos</p>
+          <a href='/contact'>LET'S CREATE</a>
+        </div>
       </section>
     </>
   )

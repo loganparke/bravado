@@ -30,28 +30,28 @@ export default function About(){
           </div>
         </div>
       </section>
-      <section>
-        <article>
+      <section className='flex space-between m-auto w-fit'>
+        <article className='w-[350px] mx-10'>
           <h5>01.</h5>
-          <h6>Empathy</h6>
+          <h6 className='text-2xl my-4'>Empathy</h6>
           <p>the ability to understand and share the feelings of others.</p>
         </article>
-        <article>
-          <h5>01.</h5>
-          <h6>Empathy</h6>
-          <p>the ability to understand and share the feelings of others.</p>
+        <article className='w-[350px] mx-10'>
+          <h5>02.</h5>
+          <h6 className='text-2xl my-4'>Empowerment</h6>
+          <p>the process of becoming stronger and more confident, especially in controlling one's life and claiming one's rights.</p>
         </article>
-        <article>
-          <h5>01.</h5>
-          <h6>Empathy</h6>
-          <p>the ability to understand and share the feelings of others.</p>
+        <article className='w-[350px] mx-10'>
+          <h5>03.</h5>
+          <h6 className='text-2xl my-4'>Love</h6>
+          <p>an intense feeling of deep affection. a great interest and pleasure in something.</p>
         </article>
       </section>
 
       <PhotoCarosuel />
       <Reviews />
 
-      <section>
+      <section className={styles.aboutFooter}>
         <div>
           <h6>The moment is now</h6>
         </div>

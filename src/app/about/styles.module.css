@@ -21,3 +21,11 @@
   bottom: 150px;
   width: fit-content;
 }
+.aboutFooter{
+  background-image: url('https://images-pw.pixieset.com/elementfield/269145402/FD4A9184-7a79c68a.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: flex;
+}

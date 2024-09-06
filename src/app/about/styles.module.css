@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+.aboutWrap{
+  font-family: "Tenor Sans", sans-serif!important;
+  margin-top: -350px;
+
+}
+.tenor{
+  font-family: "Tenor Sans", sans-serif!important;
+}
+.aboutHero{
+  padding-top: 500px;
+  background-image: url('https://images-pw.pixieset.com/elementfield/269145402/FD4A9184-7a79c68a.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 500px
+}
+.aboutHero h1{
+  position: relative;
+  left: 220px;
+  bottom: 150px;
+  width: fit-content;
+}

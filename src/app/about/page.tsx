@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 import Navbar from '@/components/NavBar';
 import PhotoCarosuel from '@/components/photoCarousel/photoCarousel';
-import Reviews from '@/components/reviews';
+import Reviews from '@/components/reviews/reviews';
 
 export default function About(){
   return (

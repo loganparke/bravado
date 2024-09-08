@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const PhotoCarosuel: React.FC = () => {
   return (
-    <div>photos moving
+    <div>
       <section className={styles.imageSection}>
         <Image alt='image' src={pic} width={400}/>
         <Image alt='image' src={pic} width={400}/>

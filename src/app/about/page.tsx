@@ -53,11 +53,11 @@ export default function About(){
 
       <section className={styles.aboutFooter}>
         <div>
-          <h6>The moment is now</h6>
+          <h6 className='text-6xl'>The moment is now</h6>
         </div>
-        <div>
-          <p>Let's explore one day of your life and turn it into timeless mementos</p>
-          <a href='/contact'>LET'S CREATE</a>
+        <div className='w-[30%]'>
+          <p className='text-xl mb-8 max-w-[450px]'>Let's explore one day of your life and turn it into timeless mementos</p>
+          <a href='/contact' className='bg-slate-900  py-5 px-8 rounded-[100px] mt-8'>LET'S CREATE</a>
         </div>
       </section>
     </div>

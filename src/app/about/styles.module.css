@@ -28,4 +28,6 @@
   padding-top: 200px;
   padding-bottom: 200px;
   display: flex;
+  /* width: 100vw; */
+  justify-content: space-around;
 }

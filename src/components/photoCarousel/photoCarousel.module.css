@@ -1,5 +1,6 @@
 .imageSection{
   display: flex;
+  overflow: hidden;
 }
 .imageSection img{
   margin: 90px;

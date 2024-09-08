@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from './reviews.module.css';
 import pic1 from '../../../public/images/pic1.jpg';
+import pic2 from'../../../public/images/pic2.jpg';
 import { HiOutlineArrowLongLeft } from "react-icons/hi2";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 

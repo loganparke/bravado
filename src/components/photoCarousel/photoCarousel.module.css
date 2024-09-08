@@ -3,4 +3,15 @@
 }
 .imageSection img{
   margin: 90px;
+  transition: all .4s ease; 
+  position: relative;
+  right: 0%;
+}
+
+.noMove{
+  /* left: 0%; */
+}
+.move1{
+  right: 3%!important;
+  transition: all .4s ease; 
 }

@@ -1,0 +1,6 @@
+.imageSection{
+  display: flex;
+}
+.imageSection img{
+  margin: 90px;
+}

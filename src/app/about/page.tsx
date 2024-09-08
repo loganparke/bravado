@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 import Image from 'next/image';
 
 import Navbar from '@/components/NavBar';
-import PhotoCarosuel from '@/components/photoCarousel';
+import PhotoCarosuel from '@/components/photoCarousel/photoCarousel';
 import Reviews from '@/components/reviews';
 
 export default function About(){

@@ -36,6 +36,8 @@ export default function Home(){
       side = 'bottom';
     }
 
+    console.log(target)
+
     console.log(`Mouse ${action} from the ${side}`);
   };
   const handleMouseEnter = (event: MouseEvent<HTMLDivElement>) => {
@@ -52,8 +54,14 @@ export default function Home(){
       <Navbar/>
       <div>hi</div>
 
-      <section className='w-[1200px] max-w-[100%] flex m-auto justify-center flex-wrap mb-20'>
-        <Image onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} alt='pic' src={pic} className='max-w-[90%] w-[330px] mx-4 my-4 cursor-pointer'/>
+      <section className='w-[1200px] max-w-[100%] flex m-auto justify-center flex-wrap mb-20 '>
+        <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}  className='max-w-[90%] w-[330px] mx-4 my-4 cursor-pointer relative'>
+        <Image alt='pic' src={pic}/>
+        <article className='absolute w-full h-full top-0 left-0 right-0 bottom-0 flex align-center justify-center'>
+          <div className='bg-gray-800/[.8] absolute w-full h-full top-0 left-0 right-0 bottom-0 transition-all max-w-[0px]'></div>
+          <p className='flex relative w-fit h-fit text-center mx-auto my-auto transition-all opacity-0'>DOUBLE VISION</p>
+        </article>
+        </div>
         <Image alt='pic' src={pic} className='max-w-[90%] w-[330px] mx-4 my-4 cursor-pointer'/>
         <Image alt='pic' src={pic} className='max-w-[90%] w-[330px] mx-4 my-4 cursor-pointer'/>
         <Image alt='pic' src={pic} className='max-w-[90%] w-[330px] mx-4 my-4 cursor-pointer'/>

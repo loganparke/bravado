@@ -36,9 +36,15 @@ export default function Home(){
       side = 'bottom';
     }
 
-    console.log(target)
-
+    
+    let bg = target.children[1].children[0];
+    let text = target.children[1].children[1];
+    console.log(bg, text);
     console.log(`Mouse ${action} from the ${side}`);
+    if(side == 'left'){
+      bg.style.maxWidth = '400px';
+      text.style.opacity = '1';
+    }
   };
   const handleMouseEnter = (event: MouseEvent<HTMLDivElement>) => {
     determineSide(event, 'entered');
@@ -58,8 +64,8 @@ export default function Home(){
         <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}  className='max-w-[90%] w-[330px] mx-4 my-4 cursor-pointer relative'>
         <Image alt='pic' src={pic}/>
         <article className='absolute w-full h-full top-0 left-0 right-0 bottom-0 flex align-center justify-center'>
-          <div className='bg-gray-800/[.8] absolute w-full h-full top-0 left-0 right-0 bottom-0 transition-all max-w-[0px]'></div>
-          <p className='flex relative w-fit h-fit text-center mx-auto my-auto transition-all opacity-0'>DOUBLE VISION</p>
+          <div className={`custom-transition bg-gray-800/[.8] absolute w-full h-full top-0 left-0 right-0 bottom-0 max-w-[0px]`}></div>
+          <p className='custom-transition flex relative w-fit h-fit text-center mx-auto my-auto opacity-0'>DOUBLE VISION</p>
         </article>
         </div>
         <Image alt='pic' src={pic} className='max-w-[90%] w-[330px] mx-4 my-4 cursor-pointer'/>

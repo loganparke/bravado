@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
+import BlockNav from '@/components/blockNavigation/blockNav';
 import pic from '../../public/images/pic3.jpg'
 
 import Navbar from '@/components/NavBar';
@@ -144,7 +145,8 @@ export default function Home(){
   return (
     <>
       <Navbar/>
-      <div>hi</div>
+      
+      <BlockNav />
 
       <section className='w-[1200px] max-w-[100%] flex m-auto justify-center flex-wrap mb-20 '>
         <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}  className='max-w-[90%] w-[330px] mx-4 my-4 cursor-pointer relative'>

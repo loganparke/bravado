@@ -1,19 +1,29 @@
+
+"use client";
 import { FaInstagram } from "react-icons/fa6";
 import { IoArrowUp } from "react-icons/io5";
 
 export default function Footer(){
+  const scrollToTop = () => {
+    console.log('hi')
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // Adds a smooth scrolling effect
+    });
+  };
   return (
-    <div className="w-full">
-    <section className="flex m-auto space-between max-w-[90%]">
+    <div className="w-full h-[500px] flex justify-center align-center">
+    <section className="flex flex-wrap m-auto space-between max-w-[90%]">
       <p className="opacity-0">.</p>
-      <div className="flex">
-      <a href="/">HOME</a>
-      <a href="/portfolio">PORTFOLIO</a>
-      <a href="/about">ABOUT</a>
-      <a href="/contact">CONTACT</a>
-      <FaInstagram />
+      <div className="flex w-[800px]">
+      <a href="/" className="m-auto">HOME</a>
+      <a href="/portfolio" className="m-auto">PORTFOLIO</a>
+      <a href="/about" className="m-auto">ABOUT</a>
+      <a href="/contact" className="m-auto">CONTACT</a>
+      <FaInstagram className="m-auto text-2xl cursor-pointer relative"/>
       </div>
-      <IoArrowUp />
+      <button className="relative top-20 left-40 " onClick={() => scrollToTop()}>
+      <IoArrowUp className="text-4xl cursor-pointer"/></button>
     </section>
     </div>
   )

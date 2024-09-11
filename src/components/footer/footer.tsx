@@ -3,9 +3,10 @@ import { IoArrowUp } from "react-icons/io5";
 
 export default function Footer(){
   return (
-    <section>
-      <p>.</p>
-      <div>
+    <div className="w-full">
+    <section className="flex m-auto space-between max-w-[90%]">
+      <p className="opacity-0">.</p>
+      <div className="flex">
       <a href="/">HOME</a>
       <a href="/portfolio">PORTFOLIO</a>
       <a href="/about">ABOUT</a>
@@ -14,5 +15,6 @@ export default function Footer(){
       </div>
       <IoArrowUp />
     </section>
+    </div>
   )
 }

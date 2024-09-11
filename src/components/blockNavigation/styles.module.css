@@ -2,8 +2,19 @@
 .about{
   font-family: "Tenor Sans", sans-serif!important;
   background-image: url('https://images-pw.pixieset.com/elementfield/269145402/FD4A9184-7a79c68a.jpg');
+  background-position: center;
   background-size: cover;
   height: 95vh;
+  transition: all .4s ease;
+}
+.bg1{
+  background-image: url('https://images-pw.pixieset.com/elementfield/269145402/FD4A9184-7a79c68a.jpg')!important;
+}
+.bg2{
+  background-image: url('https://images-pw.pixieset.com/elementfield/695862104/152cf13f1b4a45a88ec3c2b0ab395f8c-3afcd645-1500.jpg')!important;
+}
+.bg3{
+  background-image: url('https://images-pw.pixieset.com/elementfield/306862104/90c7276e3b39ebc2916345d2a4f45e54-f3b5ea94-1500.jpg')!important;
 }
 .about section{
   width: 100%;
@@ -29,9 +40,9 @@
   justify-content: center;
   padding-bottom: 50px;
   margin-bottom: -3px;
-  opacity: .6;
+  opacity: .5;
   border-bottom: 2px solid white;
-  transition: all .4s ease;
+  transition: opacity .6s ease;
 }
 
 .about div article{
@@ -53,4 +64,5 @@
 .highlighted{
   border-bottom: 5px solid white!important;
   opacity: 1!important;
+  padding-bottom: 45px;
 }

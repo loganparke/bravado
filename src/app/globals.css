@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  font-family: "Tenor Sans", sans-serif!important;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -18,6 +21,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  font-family: "Tenor Sans", sans-serif!important;
   background: linear-gradient(
       to bottom,
       transparent,
@@ -74,4 +78,10 @@ body {
 .transition-from-bottom{
   transition: max-height 0.3s ease-in-out;
   bottom: 0px;
+}
+.homeFoot{
+  background-image: url('https://images-pw.pixieset.com/elementfield/306862104/90c7276e3b39ebc2916345d2a4f45e54-f3b5ea94-1500.jpg')!important;
+  background-position: center;
+  background-size: cover;
+  height: 95vh;
 }

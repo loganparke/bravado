@@ -213,6 +213,12 @@ export default function Home(){
         </article>
         </div>
       </section>
+      <section className='homeFoot flex justify-center align-center'>
+        <p className='text-6xl relative top-[50%] left-[-15%] w-fit h-fit'>Let's start the journey</p>
+        <div className='relative top-[70%] h-fit'>
+        <a href='/contact' className='bg-slate-800 h-fit py-4 px-8 rounded-[100px] text-xl '>contact</a>
+        </div>
+      </section>
     </>
   )
 }

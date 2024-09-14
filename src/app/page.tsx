@@ -4,7 +4,6 @@ import Image from 'next/image';
 
 import BlockNav from '@/components/blockNavigation/blockNav';
 import pic from '../../public/images/pic3.jpg'
-
 import Navbar from '@/components/NavBar';
 
 export default function Home(){
@@ -133,11 +132,11 @@ export default function Home(){
     }
   }
   };
-  const handleMouseEnter = (event: MouseEvent<HTMLDivElement>) => {
+  const handleMouseEnter = (event: React.MouseEvent<HTMLDivElement>) => {
     determineSide(event, 'entered');
   };
 
-  const handleMouseLeave = (event: MouseEvent<HTMLDivElement>) => {
+  const handleMouseLeave = (event: React.MouseEvent<HTMLDivElement>) => {
     determineSide(event, 'left');
   };
 

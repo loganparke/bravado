@@ -9,7 +9,7 @@ import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
 import Image from 'next/image';
 
-
+// finish this funciton
 const PhotoCarosuel: React.FC = () => {
   const pic1 = useRef<HTMLImageElement | null>(null);
   const pic2 = useRef<HTMLImageElement | null>(null);

@@ -29,7 +29,8 @@
   transition: all .4s ease; 
 }
 .move5{
-
+  right: 23%!important;
+  transition: all .4s ease; 
 }
 .move6{
 

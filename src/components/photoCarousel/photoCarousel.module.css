@@ -17,7 +17,8 @@
   transition: all .4s ease; 
 }
 .move2{
-
+  right: 8%!important;
+  transition: all .4s ease; 
 }
 .move3{
 

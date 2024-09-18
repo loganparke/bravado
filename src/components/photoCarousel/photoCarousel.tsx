@@ -19,6 +19,7 @@ const PhotoCarosuel: React.FC = () => {
   const pic6 = useRef<HTMLImageElement | null>(null);
 
   const moveLeft = () => {
+    //make move left functionality
     console.log('left')
   }
   const moveRight = () => {
@@ -26,7 +27,6 @@ const PhotoCarosuel: React.FC = () => {
     if(pic1.current){
       pic1.current.classList.add(styles.move1);
     }
-    
   }
 
   return (

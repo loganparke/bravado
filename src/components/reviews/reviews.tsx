@@ -13,10 +13,10 @@ const Reviews: React.FC = () => {
           <div className='w-[150px] h-[150px] mr-12'>
         <Image alt="img" src={pic1} className='h-[150px] rounded-[100px]'/>
         </div>
-        <div>
-        <p className='font-thin mb-8'>WORDS TO LIVE BY</p>
-        <p className='font-medium text-lg'>"SUCCESS IS NOT FINAL; FAILURE IS NOT FATAL; IT IS THE COURAGE TO CONTINUE THAT COUNTS."</p>
-        </div>
+          <div>
+          <p className='font-thin mb-8'>WORDS TO LIVE BY</p>
+          <p className='font-medium text-lg'>"SUCCESS IS NOT FINAL; FAILURE IS NOT FATAL; IT IS THE COURAGE TO CONTINUE THAT COUNTS."</p>
+          </div>
         </div>
         <div  className='w-full flex pl-40'>
           <HiOutlineArrowLongLeft className='text-5xl mr-4'/>
